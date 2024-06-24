@@ -12,6 +12,7 @@ RUN apt update -qq && \
     bpytop \
     jq \
     rsync \
+    rclone \
     g++ && \
     apt-get clean
 
